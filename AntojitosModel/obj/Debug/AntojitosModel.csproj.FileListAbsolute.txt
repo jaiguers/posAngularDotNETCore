@@ -1,0 +1,11 @@
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\bin\Debug\AntojitosModel.dll.config
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\bin\Debug\AntojitosModel.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\bin\Debug\AntojitosModel.pdb
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\bin\Debug\EntityFramework.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\bin\Debug\EntityFramework.xml
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\obj\Debug\AntojitosModel.csproj.CopyComplete
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\obj\Debug\AntojitosModel.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\obj\Debug\AntojitosModel.pdb
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitosModel\obj\Debug\AntojitosModel.csprojAssemblyReference.cache

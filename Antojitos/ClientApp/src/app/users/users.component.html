@@ -1,0 +1,58 @@
+<div class="content-wrapper">
+  <section class="content-header">
+
+    <h1>
+
+      Lista de usuarios
+
+    </h1>
+
+    <ol class="breadcrumb">
+
+      <li><a [routerLink]="['/']"> Inicio </a></li>
+
+      <li class="active"> - Usuarios</li>
+
+    </ol>
+
+  </section>
+  <section class="content">
+    <div class="box-header with-border">
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Nuevo usuario
+      </button>
+
+
+    </div>
+
+    <br />
+
+    <div class="row">
+      <div class="col">
+        <table class="table table-hover">
+          <thead>
+
+            <tr>
+              <th>#</th>
+              <th>Login</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of users; index as j">
+              <td>{{j+1}}</td>
+              <td>{{user.login}}</td>
+              <td>{{user.stateId == 1 ? 'Activo':'Inactivo'}}</td>
+              <td><button class="btn btn-success" (click)="onTargetEdit(state)">Editar</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--MODAL-->
+<app-user-modal></app-user-modal>

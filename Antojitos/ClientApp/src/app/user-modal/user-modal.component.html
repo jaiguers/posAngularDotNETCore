@@ -1,0 +1,40 @@
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Usuario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-user" #formUser="ngForm" (ngSubmit)="onSaveUser(formUser)">
+          <input type="hidden" id="id" name="id" class="form-control" [(ngModel)]="this.usService.selectedUser.Id" >
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Login</label>
+              <input type="text" id="login" name="login" class="form-control" placeholder="Login" [(ngModel)]="this.usService.selectedUser.Login">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="password">Passwrod</label>
+              <input type="password" id="password" name="password" class="form-control" placeholder="password" [(ngModel)]="this.usService.selectedUser.Password">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="state">Estado</label>
+            <select name="stateId" id="stateId" class="form-control" [(ngModel)]="this.usService.selectedUser.StateId">
+              <option value="1">Activo</option>
+              <option value="2">Inactivo</option>
+            </select>
+
+          </div>
+
+
+          <button type="submit" class="btn btn-primary float-right">Guardar</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>

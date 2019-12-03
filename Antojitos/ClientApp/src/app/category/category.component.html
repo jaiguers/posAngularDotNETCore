@@ -1,0 +1,41 @@
+<div class="content-wrapper">
+  <section class="content-header">
+
+    <h1>
+
+      Lista de categorias
+
+    </h1>
+
+    <ol class="breadcrumb">
+
+      <li><a [routerLink]="['/']"> Inicio </a></li>
+
+      <li class="active"> - Lista de categorias</li>
+
+    </ol>
+
+  </section>
+  <section class="content">
+
+    <div class="row">
+      <div class="col">
+        <table class="table table-hover">
+          <thead>
+
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let category of categories; index as j">
+              <td>{{j+1}}</td>
+              <td>{{category.name}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>

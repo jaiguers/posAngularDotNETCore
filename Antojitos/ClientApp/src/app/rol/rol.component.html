@@ -1,0 +1,43 @@
+<div class="content-wrapper">
+  <section class="content-header">
+
+    <h1>
+
+      Lista de roles
+
+    </h1>
+
+    <ol class="breadcrumb">
+
+      <li><a [routerLink]="['/']"> Inicio </a></li>
+
+      <li class="active"> - Lista de roles</li>
+
+    </ol>
+
+  </section>
+  <section class="content">
+
+    <div class="row">
+      <div class="col">
+        <table class="table table-hover">
+          <thead>
+
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let rol of roles; index as j">
+              <td>{{j+1}}</td>
+              <td>{{rol.name}}</td>
+              <td>{{rol.state == 1 ? 'Activo': 'Inactivo'}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>

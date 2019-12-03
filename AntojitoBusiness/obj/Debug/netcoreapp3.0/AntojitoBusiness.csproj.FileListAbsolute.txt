@@ -1,0 +1,12 @@
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\obj\Debug\netcoreapp3.0\AntojitoBusiness.AssemblyInfoInputs.cache
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\obj\Debug\netcoreapp3.0\AntojitoBusiness.AssemblyInfo.cs
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\bin\Debug\netcoreapp3.0\AntojitoBusiness.deps.json
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\bin\Debug\netcoreapp3.0\AntojitoBusiness.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\bin\Debug\netcoreapp3.0\AntojitoBusiness.pdb
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\bin\Debug\netcoreapp3.0\AntojitoModel.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\bin\Debug\netcoreapp3.0\AntojitoModel.pdb
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\obj\Debug\netcoreapp3.0\AntojitoBusiness.csprojAssemblyReference.cache
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\obj\Debug\netcoreapp3.0\AntojitoBusiness.csproj.CopyComplete
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\obj\Debug\netcoreapp3.0\AntojitoBusiness.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\obj\Debug\netcoreapp3.0\AntojitoBusiness.pdb
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoBusiness\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll

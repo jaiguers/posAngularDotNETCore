@@ -1,0 +1,56 @@
+<div class="modal fade" id="productModalCenter" tabindex="-1" role="dialog" aria-labelledby="productModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLongTitle">Producto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-user" #formProd="ngForm" (ngSubmit)="onSave(formProd)">
+          <input type="hidden" id="id" name="id" class="form-control" [(ngModel)]="this.prodService.selectedProduct.id">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Nombre" [(ngModel)]="this.prodService.selectedProduct.name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="code">Codigo</label>
+              <input type="text" id="code" name="code" class="form-control" placeholder="Codigo" [(ngModel)]="this.prodService.selectedProduct.code">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="purchasePrice">Precio de compra</label>
+              <input type="text" id="purchasePrice" name="purchasePrice" class="form-control" placeholder="Precio compra" [(ngModel)]="this.prodService.selectedProduct.purchasePrice">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="salePrice">Precio de venta</label>
+              <input type="text" id="salePrice" name="salePrice" class="form-control" placeholder="Precio venta" [(ngModel)]="this.prodService.selectedProduct.salePrice">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="purchased">Cantidad</label>
+              <input type="text" id="purchased" name="purchased" class="form-control" placeholder="Cantidad" [(ngModel)]="this.prodService.selectedProduct.purchased">
+              <input type="hidden" id="stock" name="stock" class="form-control" [(ngModel)]="this.prodService.selectedProduct.stock">
+              <input type="hidden" id="image" name="image" class="form-control" [(ngModel)]="this.prodService.selectedProduct.image">
+            </div>
+            
+          </div>
+
+          <div class="form-group">
+            <label for="categoryId">Categoria</label>
+            <select name="categoryId" id="categoryId" class="form-control" [(ngModel)]="this.prodService.selectedProduct.categoryId">
+              <option *ngFor="let category of lstCategories" value="{{category.id}}">{{category.name}}</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary float-right">Guardar</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\obj\Debug\netcoreapp3.0\AntojitoModel.AssemblyInfoInputs.cache
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\obj\Debug\netcoreapp3.0\AntojitoModel.AssemblyInfo.cs
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\bin\Debug\netcoreapp3.0\AntojitoModel.deps.json
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\bin\Debug\netcoreapp3.0\AntojitoModel.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\bin\Debug\netcoreapp3.0\AntojitoModel.pdb
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\obj\Debug\netcoreapp3.0\AntojitoModel.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\obj\Debug\netcoreapp3.0\AntojitoModel.pdb
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\obj\Debug\netcoreapp3.0\AntojitoModel.csproj.CopyComplete
+C:\Users\SAENZ\Documents\Visual Studio 2019\Projects\Antojitos\AntojitoModel\obj\Debug\netcoreapp3.0\AntojitoModel.csprojAssemblyReference.cache
